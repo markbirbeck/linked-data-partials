@@ -1,6 +1,6 @@
 {
   "name": "schemaorg-partials",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Partials for inclusion in templates, that implement classes from Schema.org.",
   "main": "index.js",
   "scripts": {
