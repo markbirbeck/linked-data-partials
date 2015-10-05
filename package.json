@@ -14,7 +14,7 @@
   ],
   "author": "Mark Birbeck <mark.birbeck@gmail.com> (http://markbirbeck.com/)",
   "license": "MIT",
-  "repository": "markbirbeck/linked-data-partials.org",
+  "repository": "markbirbeck/linked-data-partials",
   "bugs": "https://github.com/markbirbeck/linked-data-partials",
   "homepage": "https://github.com/markbirbeck/linked-data-partials"
 }
