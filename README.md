@@ -21,13 +21,11 @@ To illustrate the kind of markup that is being used in the partials, here's a se
 
 ```html
 <article vocab="http://schema.org/" typeof="BlogPosting">
-  <div>
-    <header>
-      <h3 property="headline">{{ headline }}</h3>
-    </header>
-    <div property="articleBody">
-      {{ articleBody }}
-    </div>
+  <header>
+    <h3 property="headline">{{ headline }}</h3>
+  </header>
+  <div property="articleBody">
+    {{ articleBody }}
   </div>
 </article>
 ```
