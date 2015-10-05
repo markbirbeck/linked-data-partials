@@ -1,0 +1,34 @@
+<!--
+  See:
+
+    https://schema.org/Blog
+-->
+<div vocab="http://schema.org/" typeof="Blog">
+  {% for post in posts %}
+  <!--
+    See:
+
+      https://schema.org/BlogPosting
+  -->
+  <article typeof="BlogPosting">
+    <div>
+      <header>
+        <h3 property="headline">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+        <div class="meta">
+          <div class="minilogo"></div>
+          <div>
+            <span property="datePublished">{{ post.date | date_to_string }}</span>
+          </div>
+        </div>
+      </header>
+      <div property="description">
+
+        {{ post.excerpt | truncate: 500 }}...
+
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>

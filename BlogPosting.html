@@ -1,0 +1,37 @@
+<!--
+  See:
+
+    https://schema.org/BlogPosting
+    https://developers.google.com/structured-data/rich-snippets/articles
+-->
+<article vocab="http://schema.org/" typeof="BlogPosting">
+  <div>
+    <header>
+      <h3 property="headline">{{ headline }}</h3>
+      <div class="meta">
+        <div class="minilogo"></div>
+        <div>
+          <strong property="creator">{{ creator }}</strong>
+          <span property="datePublished">{{ datePublished | date_to_string }}</span>
+        </div>
+      </div>
+    </header>
+    <!--
+      TODO: Find out whether there's something other than div for
+      this. Perhaps section or article?
+    -->
+    <div property="articleBody">
+
+      {{ content }}
+
+    </div>
+  </div>
+
+  <nav>
+    <div class="demo-back">
+      <a href="index.html" title="go back" role="button">
+        <i class="material-icons" role="presentation">arrow_back</i>
+      </a>
+    </div>
+  </nav>
+</article>
