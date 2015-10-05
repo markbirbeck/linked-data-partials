@@ -1,6 +1,6 @@
-# schemaorg-partials.org
+# linked-data-partials
 
-Partials for inclusion in templates, that implement classes from [Schema.org](http://schema.org/).
+Linked Data partials for inclusion in templates, implementing classes from [Schema.org](http://schema.org/).
 
 ## Motivation
 

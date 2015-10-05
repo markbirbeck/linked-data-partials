@@ -1,15 +1,15 @@
 {
-  "name": "schemaorg-partials",
+  "name": "linked-data-partials",
   "version": "0.2.0",
-  "description": "Partials for inclusion in templates, that implement classes from Schema.org.",
+  "description": "Linked Data partials for inclusion in templates, implementing classes from Schema.org.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"No tests yet but returning success for deploy\" && exit 0"
   },
-  "keywords": [],
+  "keywords": ["linked-data", "partials", "schema.org"],
   "author": "Mark Birbeck <mark.birbeck@gmail.com> (http://markbirbeck.com/)",
   "license": "MIT",
-  "repository": "markbirbeck/schemaorg-partials.org",
-  "bugs": "https://github.com/markbirbeck/schemaorg-partials",
-  "homepage": "https://github.com/markbirbeck/schemaorg-partials"
+  "repository": "markbirbeck/linked-data-partials.org",
+  "bugs": "https://github.com/markbirbeck/linked-data-partials",
+  "homepage": "https://github.com/markbirbeck/linked-data-partials"
 }
