@@ -1,12 +1,16 @@
 {
   "name": "linked-data-partials",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Linked Data partials for inclusion in templates, implementing classes from Schema.org.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"No tests yet but returning success for deploy\" && exit 0"
   },
-  "keywords": ["linked-data", "partials", "schema.org"],
+  "keywords": [
+    "linked-data",
+    "partials",
+    "schema.org"
+  ],
   "author": "Mark Birbeck <mark.birbeck@gmail.com> (http://markbirbeck.com/)",
   "license": "MIT",
   "repository": "markbirbeck/linked-data-partials.org",
