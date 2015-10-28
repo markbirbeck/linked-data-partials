@@ -25,6 +25,9 @@
       {{ content }}
 
     </div>
+
+{% include disqus-comments.html shortname=site.disqus_shortname identifier=site.disqus_identifier | append:page.url | replace:"index.html", "" %}
+
   </div>
 
   <nav>
