@@ -1,0 +1,34 @@
+<!--
+  See:
+
+    https://schema.org/SportsEvent
+-->
+<div vocab="http://schema.org/" typeof="SportsEvent">
+  <header>
+    <h3 property="name"><a href ="{{@id}}">{{name}}</a></h3>
+  </header>
+
+  <div>
+    <div>
+      <label>
+        Starts:
+        <span property="startDate" content="{{startDate}}">{{startDate}}</span>
+      </label>
+    </div>
+    <div>
+      <label>
+        Source:
+        <a rel="mainEntityOfPage" href="{{mainEntityOfPage}}">{{mainEntityOfPage}}</a>
+      </label>
+    </div>
+    <div>
+      <label>Organiser:<span property="organizer">{{organizer}}</span></label>
+    </div>
+    <div>
+      <label>Home Team:<span property="homeTeam">{{homeTeam}}</span></label>
+    </div>
+    <div>
+      <label>Away Team:<span property="awayTeam">{{awayTeam}}</span></label>
+    </div>
+  </div>
+</div>
