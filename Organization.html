@@ -1,0 +1,25 @@
+<!--
+  See:
+
+    https://schema.org/Organization
+-->
+<div vocab="http://schema.org/" typeof="Organization">
+  <header>
+    <h3 property="name">{{name}}</h3>
+  </header>
+
+  <footer>
+  {% for action in potentialAction.target %}
+    <nav>
+      <button>Add to Calendar {{action.urlTemplate}}</button>
+      <i class="material-icons">event</i>
+    </nav>
+  {% endfor %}
+  </footer>
+
+  <div>
+  {% for event in events %}
+    {% include SportsEvent.html with event %}
+  {% endfor %}
+  </div>
+</div>
