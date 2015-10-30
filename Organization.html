@@ -8,16 +8,7 @@
     <h3 property="name">{{name}}</h3>
   </header>
 
-  <footer>
-  {% for action in potentialAction.target %}
-    <nav>
-      <a href="{{action.url}}">
-        <img src="{{action.image}}" alt="Image">
-        {{potentialAction.name}}
-      </a>
-    </nav>
-  {% endfor %}
-  </footer>
+  {% include potentialAction.html %}
 
   <div>
   {% for event in events %}
