@@ -1,6 +1,6 @@
 {
   "name": "linked-data-partials",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "Linked Data partials for inclusion in templates, implementing classes from Schema.org.",
   "main": "index.js",
   "scripts": {
