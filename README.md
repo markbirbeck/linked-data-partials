@@ -47,6 +47,14 @@ A blog, which is a collection of blog posts.
 
 An individual blog post.
 
+### Organization
+
+An organisation.
+
+### SportsEvent
+
+A sports event.
+
 ## To Do
 
 There is still work to do in the `Blog` partial to align the object properties with the names of the properties in Schema.org, since at the moment these are determined by static-site generators. This will be addressed, though.
