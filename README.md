@@ -6,7 +6,7 @@ Linked Data partials for inclusion in templates, implementing classes from [Sche
 
 To come up with a set of partials that:
 
-* are useful in such a large number of situations that lots of people will went to help keep them up-to-date, for everyone's benefit;
+* are useful in such a large number of situations that lots of people will want to help keep them up-to-date, for everyone's benefit;
 * are provided as a module so that they can be easily imported into apps such as static-site generators (SSGs), web servers, mail servers, and so on. Being a module means that we also benefit from versioning;
 * use as much semantic HTML as possible, and continue to evolve with 'best practice';
 * contain no styling so as not to restrict their use (this is not just avoiding the use of `@style`, but also excluding uses of `@class` that are only for appearance);
